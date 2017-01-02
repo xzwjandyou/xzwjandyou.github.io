@@ -7,11 +7,11 @@ gems:
 permalink:           pretty
 
 # Setup
-url:                 http://qwtel.com
+url:                 
 
 # Set to '' in case of hosting on GitHub pages,
 i.e. `http://<username>.github.io`
-baseurl:             /xzwjandyou
+baseurl:             .
 
 title:               Tam的博客
 
