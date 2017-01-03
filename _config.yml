@@ -13,7 +13,7 @@ url:                 http://qwtel.com
 # i.e. `http://<username>.github.io`
 baseurl:             
 
-title:               Hydejack
+title:               志强的博客
 
 # Pagination
 paginate:            5
