@@ -12,9 +12,10 @@ layout: default
 
 {% for post in paginator.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
-  {% include post-list-item.html post=post format="%m/%d" %}
-    <!-- <ul class="related-posts"> -->
-    <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4>
+  
+    <ul class="related-posts">
+    <li>{% include post-list-item.html post=post format="%y/%m/%d" %} </li>>
+    <!-- <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4> -->
     {% assign date = currentdate %}
 
 {% endfor %}
