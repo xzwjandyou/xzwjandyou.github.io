@@ -25,7 +25,7 @@ layout: default
   {% endif %}
   <!-- {% include post-list-item.html post=post format="%m/%d" %} -->
   <a href="{{ post.url }}" style="font-size: 25px">{{ post.title }}</a><br>
-  <p> style="color: gray; font-size: 18px">{{post.date | date: "%m-%d"}}</p>
+  <p style="color: gray; font-size: 18px">{{post.date | date: "%m-%d"}}</p>
 
   {% if forloop.last %}</ul><hr/>{% endif %}
 {% endfor %}
