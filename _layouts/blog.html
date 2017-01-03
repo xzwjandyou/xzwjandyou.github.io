@@ -14,7 +14,7 @@ layout: default
   {% assign currentdate = post.date | date: "%Y" %}
   
     <ul class="related-posts">
-    <li>{% include post-list-item.html post=post format="%y/%m/%d" %} </li>>
+    <li><h2{% include post-list-item.html post=post format="%y/%m/%d" %}</li></h2>
     <!-- <h4 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h4> -->
     {% assign date = currentdate %}
 
