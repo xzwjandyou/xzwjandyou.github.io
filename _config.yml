@@ -30,7 +30,7 @@ sidebar_tags:        [jekyll, hyde]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/nap.jpg
-color:               '#404040'
+color:               '#2d3e4f'
 
 # Fonts
 font:                '"PT Serif", Georgia, serif'
