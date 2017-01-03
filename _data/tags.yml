@@ -12,7 +12,7 @@
 # ~~~
 
 hyde:
-  name: Hyde
+  name: 觉醒材料
   image: /hydejack/public/img/hyde.jpg
   color: '#949667'
   description: >
@@ -20,7 +20,7 @@ hyde:
     It’s based on Poole, the Jekyll butler.
 
 jekyll:
-  name: Jekyll
+  name: 山兔大暴走
   image: /hydejack/public/img/jekyll.jpg
   color: '#949667'
   description: >

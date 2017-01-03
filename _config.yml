@@ -24,7 +24,7 @@ description:         >
 
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [技术, 技术]
+sidebar_tags:        [jekyll, hyde]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/nap.jpg
