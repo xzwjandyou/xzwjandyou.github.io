@@ -7,7 +7,7 @@ gems:
 permalink:           pretty
 
 # Setup
-url:                 http://qwtel.com
+url:                 http://weibo.com/u/1563542594/home?wvr=5&lf=reg
 
 # Set to '' in case of hosting on GitHub pages,
 # i.e. `http://<username>.github.io`
@@ -16,7 +16,7 @@ baseurl:
 title:               博客
 
 # Pagination
-paginate:            5
+paginate:            10
 paginate_path:       '/page-:num/'
 
 # Markdown enabled, however don't use more than one paragraph (enforced by `>`)
@@ -30,7 +30,7 @@ sidebar_tags:        [jekyll, hyde]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/nap.jpg
-color:               '#A85641'
+color:               '#404040'
 
 # Fonts
 font:                '"PT Serif", Georgia, serif'
