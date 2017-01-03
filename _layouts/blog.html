@@ -15,7 +15,8 @@ layout: default
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
     {% unless forloop.first %}</ul><hr/>{% endunless %}
-    <h1 id="y{{post.date | date: "%Y"}}" style="color: #ef5b30">{{ currentdate }}</h1>
+    <!-- <h1 id="y{{post.date | date: "%Y"}}" style="color: #ef5b30">{{ currentdate }}</h1> -->
+    <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
     <ul class="related-posts">
     {% assign date = currentdate %}
   {% endif %}
