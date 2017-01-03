@@ -10,12 +10,12 @@ layout: default
 {% include pagination.html %} -->
 
 
-{% for post in posts %}
+{% for post in paginator.posts %}
   {% assign currentdate = post.date | date: "%Y" %}
-  {% unless forloop.first %}</ul><hr/>{% endunless %}
+
     <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
     <ul class="related-posts">
     {% assign date = currentdate %}
   {% include post-list-item.html post=post format="%m/%d" %}
-  {% if forloop.last %}</ul><hr/>{% endif %}
+
 {% endfor %}
