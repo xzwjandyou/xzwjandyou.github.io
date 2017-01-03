@@ -17,7 +17,7 @@ layout: default
       </li> -->
   {% assign currentdate = post.date | date: "%Y" %}
   {% if currentdate != date %}
-    {% unless forloop.first %}</ul><hr/>{% endunless %}
+    {% unless forloop.first %}</ul>{% endunless %}
     <h1 id="y{{post.date | date: "%Y"}}" style="color: #ef5b30">{{ currentdate }}</h1>
     <!-- <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1> -->
     <ul class="related-posts">
@@ -52,9 +52,9 @@ layout: default
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">前一页</a>
   {% else %}
-    <span>&laquo; Prev</span>
+    <span>前一页</span>
   {% endif %}
 
   {% for page in (1..paginator.total_pages) %}
@@ -68,9 +68,9 @@ layout: default
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">下一页 </a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span>下一页 </span>
   {% endif %}
 </div>
 {% endif %}
