@@ -24,8 +24,8 @@ layout: default
     {% assign date = currentdate %}
   {% endif %}
   <!-- {% include post-list-item.html post=post format="%m/%d" %} -->
-  <a href="{{ post.url }}" style="font-size: 25px;margin: 5px auto">{{ post.title }}</a><br>
-  <h4 style="color: gray; font-size: 18px;margin: 5px auto">{{post.date | date: "%m-%d"}}</h4><br>
+  <a href="{{ post.url }}" style="font-size: 25px;margin: 1px auto">{{ post.title }}</a><br>
+  <h4 style="color: gray; font-size: 18px;margin: 1px auto">{{post.date | date: "%m-%d"}}</h4><br>
 
   {% if forloop.last %}</ul><hr/>{% endif %}
 {% endfor %}
