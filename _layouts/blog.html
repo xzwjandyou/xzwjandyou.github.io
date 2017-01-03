@@ -20,7 +20,7 @@ layout: default
     {% unless forloop.first %}</ul><hr/>{% endunless %}
     <h1 id="y{{post.date | date: "%Y"}}" style="color: #ef5b30">{{ currentdate }}</h1>
     <!-- <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1> -->
-    <div class="related-posts">
+    <ul class="related-posts">
     {% assign date = currentdate %}
   {% endif %}
   <!-- {% include post-list-item.html post=post format="%m/%d" %} -->
