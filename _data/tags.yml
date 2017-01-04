@@ -20,8 +20,16 @@ hyde:
     It’s based on Poole, the Jekyll butler.
 
 jekyll:
+  name: 觉醒材料1
+  image: /public/img/jekyll.jpg
+  color: '#949667'
+  description: >
+    Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+
+language:
   name: 觉醒材料
   image: /public/img/jekyll.jpg
   color: '#949667'
   description: >
     Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+
