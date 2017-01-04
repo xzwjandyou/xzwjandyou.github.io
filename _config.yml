@@ -13,7 +13,7 @@ url:                 http://weibo.com/u/1563542594/home?wvr=5&lf=reg
 # i.e. `http://<username>.github.io`
 baseurl:             
 
-title:               向杰是傻逼
+title:               宋波是傻逼
 
 # Pagination
 paginate:            10
@@ -24,7 +24,8 @@ description:         >
 
 
 # The tags listed as entries in the sidebar
-sidebar_tags:        [jekyll, hyde,language]
+# sidebar_tags:        [jekyll, hyde,language]
+sidebar_tags:        [language]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/nap.jpg
