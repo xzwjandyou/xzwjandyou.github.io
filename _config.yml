@@ -28,7 +28,8 @@ description:         >
 sidebar_tags:        [language]
 
 # Fallback image and color if not overwritten for tag or post
-image:               /public/img/pic_hd.jpg
+# image:               /public/img/pic_hd.jpg
+image:               /public/img/nap.jpg
 color:               '#2d3e4f'
 
 # Fonts
