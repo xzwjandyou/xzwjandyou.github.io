@@ -46,7 +46,7 @@ author:
   # photo2x:           http://qwtel.com/public/img/flo@2x.jpg
 
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |
+  about:             '关于'
     
     
 
