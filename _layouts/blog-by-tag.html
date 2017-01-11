@@ -34,6 +34,7 @@ layout: default
   <!-- {% include post-list-item.html post=post format="%m/%d" %} -->
   <a href="{{ post.url }}" style="font-size: 25px; color: #2d3e4f; margin: 1px auto">{{ post.title }}</a><br>
   <p style="color: #7f8c8d; font-size: 18px;margin: 1px auto;font-style:normal">{{post.date | date: "%y年%m月%d号"}}</p><br>
+   <!-- <hr style="margin: 22px auto"> -->
   <!-- <hr style="margin: 22px auto"> -->
-  {% if forloop.last %}</ul><hr/>{% endif %}
+  {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
