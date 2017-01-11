@@ -27,7 +27,7 @@ layout: default
   <a href="{{ post.url }}" style="font-size: 25px;margin: 1px auto">{{ post.title }}</a><br>
   <p style="color: #7f8c8d; font-size: 18px;margin: 1px auto;font-style:normal">{{post.date | date: "%y年%m月%d号"}}</p><br>
   <!-- <div style="width:100%;height:1px; background:#E0E0E0;"></div>  -->
-  <!-- <hr style="margin: 22px auto"> -->
+  <hr style="margin: 22px auto">
 
   {% if forloop.last %}</ul>{% endif %}
 {% endfor %}
