@@ -12,16 +12,25 @@
 # ~~~
 
 hyde:
-  name: Hyde
-  image: /hydejack/public/img/hyde.jpg
-  color: '#949667'
+  name: 山兔大暴走
+  image: /public/img/pic_hd.jpg
+  color: '#2d3e4f'
   description: >
     Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
     It’s based on Poole, the Jekyll butler.
 
 jekyll:
-  name: Jekyll
-  image: /hydejack/public/img/jekyll.jpg
-  color: '#949667'
+  name: 觉醒材料1
+  image: /public/img/pic_hd.jpg
+  color: '#2d3e4f'
   description: >
     Jekyll is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes.
+
+language:
+  name: 觉醒材料
+  image: /public/img/pic_hd.jpg
+  color: '#2d3e4f'
+  description: >
+    2016下半年看过的技术类书，以及一些技术知识的整理。
+    
+
