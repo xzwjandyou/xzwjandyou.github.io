@@ -16,8 +16,7 @@ hyde:
   image: /public/img/pic_hd.jpg
   color: '#2d3e4f'
   description: >
-    Hyde is a brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.
-    It’s based on Poole, the Jekyll butler.
+    
 
 jekyll:
   name: 觉醒材料1
