@@ -25,7 +25,7 @@ description:         >
 
 # The tags listed as entries in the sidebar
 # sidebar_tags:        [jekyll, hyde,language]
-sidebar_tags:        [language]
+sidebar_tags:        [language,hyde]
 
 # Fallback image and color if not overwritten for tag or post
 image:               /public/img/pic_hd.jpg
